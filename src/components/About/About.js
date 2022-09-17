@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Aboutcard from "./AboutCard";
+import Techstack from "./Techstack";
 import Headshot from "../../Assets/Headshot.png";
 import {
   AiFillGithub,
@@ -38,6 +39,10 @@ function About() {
             <img src={Headshot} alt="about" className="img-fluid" />
           </Col>
         </Row>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+        <Techstack />
         <Row>
           <Col md={12} className="home-about-social">
             <p>
