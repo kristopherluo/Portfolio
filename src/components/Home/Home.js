@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import casual_shot from "../../Assets/casual_shot.PNG";
 import Particle from "../Particle";
 import Type from "./Type";
 
@@ -26,8 +26,8 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
+            <Col md={5} style={{ paddingBottom: 0 }}>
+              <img src={casual_shot} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>

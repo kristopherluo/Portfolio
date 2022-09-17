@@ -29,25 +29,25 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={sudoku}
-              title="Sudoku Solver | Python" 
-              description="Sudoku program that can take in any sudoku board and solve it using a backtracking algorithm. It has a graphical user interface that allows a user to play the sudoku game. With a press of the spacebar, the program will visually solve the puzzle."
-              link="https://github.com/kristopherluo/Sudoku"
+              imgPath={gravity_runner}
+              title="Gravity Runner | C++"
+              description="2D game where you control a running alien capable of reversing gravity. You must avoid ALL obstacles. I desgined the game and implemented all sprite animations and menus within it."
+              link="https://github.com/kristopherluo/GravityRunner"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={gravity_runner}
-              title="Gravity Runner | C++"
-              description="Game where you control an alien capable of reversing gravity. Designed and implemented all sprite animations and menus."
-              link="https://github.com/kristopherluo/GravityRunner"
+              imgPath={sudoku}
+              title="Sudoku Solver | Python" 
+              description="Program that can take in any valid sudoku board and visually solve it using a backtracking algorithm. It also has a GUI that allows a user to play the sudoku game."
+              link="https://github.com/kristopherluo/Sudoku"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tictactoe}
               title="Tic-Tac-Toe | Java"
-              description="Tic-Tac-Toe game with a graphical user interface. The number of rows, columns, players, and moves in a row to win are customizable."
+              description="Tic-Tac-Toe game with a GUI, where the number of rows, columns, players, and consecutive occupied spaces to win are customizable."
               link="https://github.com/kristopherluo/Tic-Tac-Toe"
             />
           </Col>
