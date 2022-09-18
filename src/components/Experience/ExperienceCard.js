@@ -33,11 +33,6 @@ function ExperienceCard() {
                 <ImPointRight /> Contributed to the <b>RESTful</b> service development of a company infrastructure application
               </li>
             </ul>
-            <ul>
-              <li className="about-activity"> 
-                <ImPointRight /> Incorporated a text quality step to filter out <b>90%</b> of low quality data and lingering HTML text in GOST data
-              </li>
-            </ul>
 
             <br />
             <span className="purple">Giant Oak | </span>
