@@ -26,7 +26,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 0 }}>
+            <Col md={5} style={{ paddingBottom: 0, position: "fixed", right: 200, width: "500px", height: "auto" }}>
               <img src={casual_shot} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
