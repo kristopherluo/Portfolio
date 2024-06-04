@@ -20,7 +20,7 @@ function ExperienceCard() {
             <ul>
                 <br />
                 <li className="about-activity">
-                    <ImPointRight /> Improved documentation efficiency and accuracy for rehabilitation nurses, saving over <b>8,000</b> clicks per month
+                    <ImPointRight /> Improved documentation efficiency and accuracy for rehabilitation nurses, saving over <b>8,000</b> clicks per month 
                 </li>
             </ul>
             <ul>
