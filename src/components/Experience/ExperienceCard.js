@@ -9,6 +9,32 @@ function ExperienceCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             <br />
+            <span className="purple">Epic | </span>
+            <span style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+                Jul. 2023 – Present
+            </span>
+            <br />
+            <span style={{ marginBlockEnd: 0, color: "rgb(248 240 227)" }}>
+                <i>Software Engineer</i>
+            </span>
+            <ul>
+                <br />
+                <li className="about-activity">
+                    <ImPointRight /> Improved documentation efficiency and accuracy for rehabilitation nurses, saving over <b>8,000</b> clicks per month
+                </li>
+            </ul>
+            <ul>
+                <li className="about-activity">
+                    <ImPointRight /> Created <b>macro shortcuts</b> for repetitive patient data entry using C# and TypeScript, streamlining documentation
+                </li>
+            </ul>
+            <ul>
+                <li className="about-activity">
+                    <ImPointRight /> Developed an <b>auto-population</b> feature for the IRF-PAI form using M, reducing manual data entry
+                </li>
+            </ul>
+          
+            <br />
             <span className="purple">Moody's Investors Service | </span>
             <span style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             Jun. 2022 – Aug 2022
