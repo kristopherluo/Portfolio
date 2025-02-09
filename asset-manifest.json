@@ -1,33 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d3eb9a0.chunk.css",
-    "main.js": "/static/js/main.4ee6cc4a.chunk.js",
-    "main.js.map": "/static/js/main.4ee6cc4a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e51f36b0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e51f36b0.js.map",
-    "static/css/2.dc3c9708.chunk.css": "/static/css/2.dc3c9708.chunk.css",
-    "static/js/2.1dfddda9.chunk.js": "/static/js/2.1dfddda9.chunk.js",
-    "static/js/2.1dfddda9.chunk.js.map": "/static/js/2.1dfddda9.chunk.js.map",
-    "static/js/3.e5806d94.chunk.js": "/static/js/3.e5806d94.chunk.js",
-    "static/js/3.e5806d94.chunk.js.map": "/static/js/3.e5806d94.chunk.js.map",
+    "main.css": "/static/css/main.4838668b.css",
+    "main.js": "/static/js/main.bf987eb4.js",
+    "static/js/422.b7bd11e0.chunk.js": "/static/js/422.b7bd11e0.chunk.js",
+    "static/media/casual_shot.PNG": "/static/media/casual_shot.2bd2c2624cb1645fafd4.PNG",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.9dd739417d6ff3b11bfc.png",
+    "static/media/Headshot.png": "/static/media/Headshot.302bed913874d45baf3e.png",
+    "static/media/KristopherLuo-Resume.pdf": "/static/media/KristopherLuo-Resume.331abae7cd2bb7aa0a19.pdf",
+    "static/media/Experience.png": "/static/media/Experience.aee0f771fbfc1e7b8fa8.png",
+    "static/media/gravity_runner.png": "/static/media/gravity_runner.f025b9f5c27383003610.png",
+    "static/media/sudoku.png": "/static/media/sudoku.6a727def1a7974c540b8.png",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "static/css/2.dc3c9708.chunk.css.map": "/static/css/2.dc3c9708.chunk.css.map",
-    "static/css/main.4d3eb9a0.chunk.css.map": "/static/css/main.4d3eb9a0.chunk.css.map",
-    "static/js/2.1dfddda9.chunk.js.LICENSE.txt": "/static/js/2.1dfddda9.chunk.js.LICENSE.txt",
-    "static/media/Experience.aee0f771.png": "/static/media/Experience.aee0f771.png",
-    "static/media/Headshot.302bed91.png": "/static/media/Headshot.302bed91.png",
-    "static/media/KristopherLuo-Resume.2c677ab4.pdf": "/static/media/KristopherLuo-Resume.2c677ab4.pdf",
-    "static/media/casual_shot.2bd2c262.PNG": "/static/media/casual_shot.2bd2c262.PNG",
-    "static/media/gravity_runner.f025b9f5.png": "/static/media/gravity_runner.f025b9f5.png",
-    "static/media/style.css": "/static/media/pre.d4812f51.svg",
-    "static/media/sudoku.6a727def.png": "/static/media/sudoku.6a727def.png",
-    "static/media/tic-tac-toe.9dd73941.png": "/static/media/tic-tac-toe.9dd73941.png"
+    "main.4838668b.css.map": "/static/css/main.4838668b.css.map",
+    "main.bf987eb4.js.map": "/static/js/main.bf987eb4.js.map",
+    "422.b7bd11e0.chunk.js.map": "/static/js/422.b7bd11e0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e51f36b0.js",
-    "static/css/2.dc3c9708.chunk.css",
-    "static/js/2.1dfddda9.chunk.js",
-    "static/css/main.4d3eb9a0.chunk.css",
-    "static/js/main.4ee6cc4a.chunk.js"
+    "static/css/main.4838668b.css",
+    "static/js/main.bf987eb4.js"
   ]
 }
