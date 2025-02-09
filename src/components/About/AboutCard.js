@@ -13,11 +13,13 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             <br />
             Hi! I'm <span className="purple">Kristopher Luo</span>
-            , and I'm a senior pursuing a B.S. in Computer Science with a minor in Business Management at Clemson University.
+            , and I'm currently a software engineer at Epic located in Madison Wisconsin. I graduated from Clemson University with a B.S. in Computer Science and a minor in Business Management.
             <br />
             <br />
-            I have always had a passion for technology, thus my interest in computer science. 
-            I specifically enjoy and have experience with machine learning and data analysis concepts, along with front-end development.
+            I love building creative and efficient solutions and constantly exploring new technologies. Whether it’s developing software, optimizing performance, or learning something new, I enjoy the challenge of solving problems through code.
+            <br />
+            <br />
+            Outside of work, you’ll often find me playing music, keeping up with the latest tech trends, or working on personal projects. I'm always excited to connect, collaborate, and grow as a developer!.
             <br />
             <br />
             <Button variant="primary" href={pdf} target="_blank">
@@ -26,7 +28,7 @@ function AboutCard() {
             </Button>
             <br />
             <br />            
-            Apart from computer science, some other activities that I love to do include:
+            Apart from computer science, some other activities that I love include:
           </p>
           <ul>
             <li className="about-activity">

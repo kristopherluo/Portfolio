@@ -9,6 +9,42 @@ function ExperienceCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             <br />
+            <span className="purple">Epic | </span>
+            <span style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+            Jul. 2023 – Present
+            </span>
+            <br />
+            <span style={{ marginBlockEnd: 0, color: "rgb(248 240 227)" }}>
+            <i>Software Engineer</i>
+            </span>
+            <ul>
+            <br />
+              <li className="about-activity">
+                <ImPointRight /> Proposed and implemented a customizable macro shortcuts feature for nurse documentation using <b>C#</b> and <b>TypeScript</b>, cutting workflow time by <b>93%</b> while enhancing documentation accuracy
+              </li>
+            </ul>
+            <ul>
+              <li className="about-activity"> 
+                <ImPointRight /> Developed an <b>auto-population</b> feature for the IRF-PAI form using <b>M</b>, saving nurses over <b>8,000</b> clicks per month
+              </li>
+            </ul>
+            <ul>
+              <li className="about-activity"> 
+                <ImPointRight /> Built reporting dashboards with <b>SQL</b> and <b>M</b>, delivering live performance metrics to over <b>200</b> healthcare organizations
+              </li>
+            </ul>
+            <ul>
+              <li className="about-activity"> 
+                <ImPointRight /> Reviewed over <b>200</b> peer projects and designs, providing feedback and ensuring quality standards
+              </li>
+            </ul>
+            <ul>
+              <li className="about-activity"> 
+                <ImPointRight /> Investigated and fixed over <b>50</b> diverse Quality Assurance Notes, enhancing system reliability
+              </li>
+            </ul>
+
+            <br />
             <span className="purple">Moody's Investors Service | </span>
             <span style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             Jun. 2022 – Aug 2022

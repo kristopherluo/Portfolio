@@ -1,29 +1,34 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Testing
+coverage/
 
-# testing
-/coverage
+# Build & Production
+build/
 
-# production
-/build
-
-# misc
+# IDE & Editor Files
+.vs/
+.vscode/
+.idea/
 .DS_Store
+
+# Environment Variables
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs & Debug Files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+logs/
 
+# Miscellaneous
 .eslintcache
 
-Server/node_modules
-Server/config.js
+# Ignore sensitive config files
+config.js

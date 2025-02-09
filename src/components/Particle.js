@@ -1,10 +1,17 @@
 import React from "react";
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
+import { loadFull } from "tsparticles"; 
 
-function Particle() {
+const Particle = () => {
+  const particlesInit = async (engine) => {
+    console.log("Particles Engine Loaded:", engine);
+    await loadFull(engine);
+  };
+
   return (
     <Particles
-      params={{
+      init={particlesInit}
+      options={{
         particles: {
           number: {
             value: 160,
@@ -13,7 +20,7 @@ function Particle() {
               value_area: 1500,
             },
           },
-          line_linked: {
+          links: {
             enable: false,
             opacity: 0.03,
           },
@@ -25,30 +32,30 @@ function Particle() {
             value: 1,
           },
           opacity: {
-            anim: {
+            animation: {
               enable: true,
               speed: 1,
-              opacity_min: 0.05,
+              minimumValue: 0.05,
             },
           },
         },
         interactivity: {
           events: {
-            onclick: {
+            onClick: {
               enable: true,
               mode: "push",
             },
           },
           modes: {
             push: {
-              particles_nb: 1,
+              quantity: 1,
             },
           },
         },
-        retina_detect: true,
+        detectRetina: true,
       }}
     />
   );
-}
+};
 
 export default Particle;
